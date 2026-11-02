@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw / processed datasets
+data/raw/*
+data/processed/*
+
+# Keep documentation files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.log
